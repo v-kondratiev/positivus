@@ -16,6 +16,23 @@
   --font-famity-base: 'Space Grotesk', sans-serif;
 
   --container-width: 1240px;
+  --container-pading-x: 20px;
 
+  --section-pading-y: 70px;
+
+  --input-height: 59px;
+
+  --button-height: 68px;
+
+  --transition-duration: 0.2s;
+
+  @include desktop {
+    --section-pading-y: 50px;
+
+  }
+  @include mobile {
+    --section-pading-y: 30px;
+
+  }
 
 }

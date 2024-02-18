@@ -1,1 +1,16 @@
-@import "fonts", "globals", "media", "mixin", "normalize", "utils", "variables";
+@import "normalize",
+"fonts",
+"mixin",
+"media",
+"variables",
+"utils",
+"globals";
+
+@import
+"blocks/button",
+"blocks/burger-button",
+"blocks/header",
+"blocks/cross-button",
+"blocks/mobile-overlay",
+"blocks/section",
+"blocks/hero";
