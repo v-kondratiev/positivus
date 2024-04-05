@@ -13,12 +13,17 @@
     @include mobile {
       flex-direction: column;
       row-gap: 30px;
+      text-align: center;
 
     }
 
     &:not(:last-child) {
       margin-bottom: 80px;
 
+      @include mobile {
+        margin-bottom: 40px;
+
+      }
     }
 
   }
